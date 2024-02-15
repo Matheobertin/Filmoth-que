@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmothèque</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+    <nav>
+        <h1>Filmothèque</h1>
+        <div class="categorie">
+                Catégories :
+              <!--  <li class="dropdown"> -->
+                    <!-- Select pour choisir l'option -->
+                    <select id="selectOptions">
+                        <option value="nom">Film</option>
+                        <option value="directeur">Réalisateur</option>
+                        <option value="duree">Durée</option>
+                    </select>
+        </div>
+        <div id="search-bar">
+            <form id="for_choper_le_mots">
+                <!-- Input de recherche -->
+                <input type="text" name="name" placeholder="Rechercher...">
+
+                <!-- Bouton de recherche avec l'appel à la fonction "writeFile()" -->
+                <input onclick="writeFile('for_choper_le_mots',getSelectedOption())" type="submit" id="go" value="Rechercher">
+                <input onclick="readFile()" type="button" id="afficher" value="Afficher">
+            </form>
+        </div>
+    </nav>
+</header>
+
+
+<body>
+<h3 id="temps">Temps de recherche 0.000000s</h3>
+<h3 id="directeurMax">Plus Grand Réalisateur : -------- avec -- Films</h3>
+  <div id="container">
+    <div id="time">
+      <div id="film-list">
+          <table id="filmsTable">
+            <thead>
+                <tr>
+                    <th>Réalisateur</th>
+                    <th>Film</th>
+                    <th>Durée</th>
+                    <th>Genre</th>
+                </tr>
+            </thead>
+            <tbody id="resultsTableBody">
+            </tbody>
+         </table>
+
+        <div class="pagination">
+            <button id="firstPage">Première page</button>
+            <button id="prevPage">Page précédente</button>
+            <span id="currentPage"></span>
+            <button id="nextPage">Page suivante</button>
+            <button id="lastPage">Dernière page</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+ <footer>
+      <p>Mathéo Bertin - Ange Colsenet</p>
+      <p>CIR 1 Rennes</p>
+     <input onclick="ShutDown('for_choper_le_mots',getSelectedOption())" type="submit" id="go" value="ShutDown">
+ </footer>
+
+<script src="script.js"></script>
+</html>

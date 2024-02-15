@@ -1,0 +1,148 @@
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+  nav {
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .categorie {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #selectOptions{
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+  }
+
+  input[type="submit"],input[type="button"] {
+    padding: 8px 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #bbb;
+  }
+
+  input[type="button"]:hover {
+    background-color: #bbb;
+  }
+
+  p{
+
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Modification de cette ligne */
+    height: 80vh;
+    background-color: white;
+  }
+
+  #film-list {
+    text-align: center;
+  }
+
+
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 600px; /* Remplacez la valeur par la largeur souhaitée */
+    height: 500px; /* Remplacez la valeur par la hauteur souhaitée */
+  }
+
+ 
+
+  th {
+    background-color: white;
+    color: black;
+  }
+
+  tr{
+    background-color: #333;
+  }
+
+
+
+  .pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+   #currentPage{
+     color:black;
+   }
+
+  button {
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #bbb;
+  }
+
+  footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
