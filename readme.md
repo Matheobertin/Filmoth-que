@@ -44,5 +44,5 @@ Version 1.0 crée le 14/06/2023
 
 ## Auteurs
 
-- Ange Colsenet étudiant ISEN Rennes 1ère annnée cycle informatique et réseaux
-- Mathéo Bertin étudiant ISEN Rennes 1ère annnée cycle informatique et réseaux  
+- Ange Colsenet étudiant ISEN Rennes 1ère année cycle informatique et réseaux
+- Mathéo Bertin étudiant ISEN Rennes 1ère année cycle informatique et réseaux  
